@@ -1485,9 +1485,9 @@ def handle_message(message):
 
     if not is_user_joined(user_id):
         fj_msg = (
-            "<b><tg-emoji emoji-id=\"5337267511261960341\">🔥</tg-emoji> JOIN TO CONTINUE</b>\n\n"
-"<b><tg-emoji emoji-id=\"5420517437885943844\">🔗</tg-emoji> YOU MUST JOIN ALL CHANNELS BELOW.</b>\n\n"
-"<b><tg-emoji emoji-id=\"5352694861990501856\">✅</tg-emoji> AFTER JOINING, CLICK VERIFY.</b>"
+            "<b><tg-emoji emoji-id=\"5337267511261960341\">🔥</tg-emoji>𝑱𝒐𝒊𝒏 𝑹𝒆𝒒𝒖𝒊𝒓𝒆𝒅</b>\n\n"
+            "<b><tg-emoji emoji-id=\"5420517437885943844\">🔗</tg-emoji> 𝑷𝒍𝒆𝒂𝒔𝒆 𝑱𝒐𝒊𝒏 𝑨𝒍𝒍 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔 𝑩𝒆𝒍𝒐𝒘..</b>\n\n"
+            "<b><tg-emoji emoji-id=\"5352694861990501856\">✅</tg-emoji>𝑨𝒍𝒍 𝒋𝒐𝒊𝒏𝒆𝒅? 𝑻𝒂𝒑 𝑽𝒆𝒓𝒊𝒇𝒚.</b>"
         send_message(chat_id, fj_msg, reply_markup=get_force_join_alert_keyboard())
         return
 

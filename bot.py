@@ -656,9 +656,8 @@ def generate_otp_display(service_name, raw_number, message_text):
     service_html, srv_eid = get_service_info_html(service_name)
     
     text = (
-        f"━━━━━━━━━━━━━━━━━\n"
         f"{service_html} ➜ {country_emoji} <code>{html.escape(masked_number)}</code>\n"
-        f"━━━━━━━━━━━━━━━━━"
+    
     )
     
     otp = extract_otp_code(message_text)
@@ -1377,11 +1376,10 @@ def get_number_allocation_content(sid_short, c_code, user_id=None):
         _, country_with_flag = get_country_info(c_code)
         
         msg = (
-            f"━━━━━━━━━━━━━━━\n"
-            f"<tg-emoji emoji-id=\"5337172996211648018\">⌛</tg-emoji> <b>ACTIVE NUMBER 15M</b>\n"
-            f"— — — — — — — — — —\n"
+            f"<tg-emoji emoji-id=\"5337172996211648018\">⌛</tg-emoji> <b>You will receive messages automatically upon arrival!</b>\n"
+        
             f"{service_html} ➜ {country_with_flag}\n"
-            f"━━━━━━━━━━━━━━━"
+    
         )
         
         kb = {"inline_keyboard": []}

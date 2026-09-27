@@ -1378,7 +1378,7 @@ def get_number_allocation_content(sid_short, c_code, user_id=None):
         msg = (
             f"<tg-emoji emoji-id=\"5337172996211648018\">⌛</tg-emoji> <b>You will receive messages automatically upon arrival!</b>\n"
         
-            f"{service_html} ➜ {country_with_flag}\n"
+            f"{service_html} ➢ {country_with_flag}\n"
     
         )
         
@@ -1485,10 +1485,9 @@ def handle_message(message):
 
     if not is_user_joined(user_id):
         fj_msg = (
-            "<b>════《 <tg-emoji emoji-id=\"5337267511261960341\">🔥</tg-emoji> ACCESS REQUIRED 》════</b>\n\n"
-            "<b><tg-emoji emoji-id=\"5420517437885943844\">🔗</tg-emoji> JOIN ALL CHANNELS BELOW TO USE THIS BOT.</b>\n\n"
-            "<b><tg-emoji emoji-id=\"5352694861990501856\">✅</tg-emoji> JOIN ALL CHANNELS, THEN CLICK VERIFY.</b>"
-        )
+            "<b><tg-emoji emoji-id=\"5337267511261960341\">🔥</tg-emoji> JOIN TO CONTINUE</b>\n\n"
+"<b><tg-emoji emoji-id=\"5420517437885943844\">🔗</tg-emoji> YOU MUST JOIN ALL CHANNELS BELOW.</b>\n\n"
+"<b><tg-emoji emoji-id=\"5352694861990501856\">✅</tg-emoji> AFTER JOINING, CLICK VERIFY.</b>"
         send_message(chat_id, fj_msg, reply_markup=get_force_join_alert_keyboard())
         return
 

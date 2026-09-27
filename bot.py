@@ -20,7 +20,7 @@ BOT_USERNAME = "Bixbysmsbot"
 
 # 2oo9 API Configuration
 API_2OO9_BASE = "https://api.2oo9.cloud/MXS47FLFX0U/tnevs/@public/api"
-API_2OO9_KEY_DEFAULT = "MP85AFJ0QGH"
+API_2OO9_KEY_DEFAULT = "M1PMC94LWNN"
 
 # Global states
 current_db_mode = "sqlite"

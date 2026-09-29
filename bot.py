@@ -1861,7 +1861,7 @@ def handle_message(message):
                         send_message(inviter_id, f"🎉 <b>New Referral!</b>\nSomeone joined using your link. You received {ref_amount} BDT.")
                 except ValueError: pass
         send_message(chat_id, (
-            f"🔥 <b>𝗕𝗜𝗫𝗕𝗬𝗦𝗠𝗦𝗕𝗢𝗧 ✨</b>\n"
+            f"🔥 <b>𝐇𝐢𝐌𝐚𝐑𝐢 🪽</b>\n"
             f"<b>🎀 𝗬𝗮𝗵𝗵𝗼, {html.escape(str(first_name))}! 🩷</b>\n\n"
             f"<b>🌷 𝗪𝗵𝗮𝘁 𝘄𝗼𝘂𝗹𝗱 𝘆𝗼𝘂 𝗹𝗶𝗸𝗲 𝘁𝗼 𝗱𝗼? 🫧</b>\n"
             f"<b>🍥 𝗖𝗵𝗼𝗼𝘀𝗲 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗺𝗲𝗻𝘂 𝗯𝗲𝗹𝗼𝘄! 💕</b>"
